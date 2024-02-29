@@ -56,31 +56,31 @@ A **variável resposta** (NObeyesdad) dispõe das seguintes categorias:
 
 ---
 ### Modelos Utilizados: principais conceitos
-**Naive Bayes:**
+- **Naive Bayes:**
 É o modelo de classificação que se baseia no Teorema de Bayes. Ele assume que as variáveis são independentes entre si. 
 Ex: ao classificar e-mails como spam ou não spam, o Naive Bayes considera a probabilidade de cada palavra aparecer em um e-mail spam ou não spam de forma independente.
 
-**Árvore de Decisão:**
+- **Árvore de Decisão:**
 É o modelo de aprendizado supervisionado que representa um conjunto de regras de decisão em forma de árvore. Cada nó interno da árvore representa uma decisão baseada em um atributo, e cada folha representa o resultado da decisão. 
 Ex: em um modelo para prever se um cliente vai alugar um apartamento, a árvore pode ter nós que representam o salário do cliente, preferências do cliente, preço do aluguel, etc.
 
-**Random Forest:**
+- **Random Forest:**
 É o modelo de aprendizagem que cria várias árvores de decisão durante o treinamento e combina suas previsões para obter uma previsão mais precisa e estável. 
 Ex: em um modelo para prever o clima, o Random Forest pode combinar várias árvores de decisão que consideram diferentes variáveis meteorológicas.
 
-**KNN (K-Nearest Neighbors):**
+- **KNN (K-Nearest Neighbors):**
 É o modelo que classifica um ponto de dados com base nos pontos de dados mais próximos a ele. 
 Ex: em um modelo para classificar animais, o KNN considera as características dos demais animais para determinar a classe de um animal desconhecido.
 
-**Regressão Logística:**
+- **Regressão Logística:**
 É o modelo usado para prever a probabilidade de um evento ocorrer com base em variáveis independentes (preditoras).
 Ex: em um modelo para prever se um paciente tem uma determinada doença, a regressão logística pode ser usada para prever a probabilidade de o paciente ter a doença com base em seus sintomas.
 
-**SVM (Support Vector Machine):**
+- **SVM (Support Vector Machine):**
 É um modelo de aprendizado supervisionado usado tanto para classificação quanto para regressão. Ele encontra o hiperplano que melhor separa os dados em classes diferentes. 
 Ex: em um modelo para classificar imagens de gatos e cachorros, o SVM encontra o hiperplano que separa as características dos gatos das dos cachorros.
 
-**Redes Neurais:**
+- **Redes Neurais:**
 São modelos de aprendizado de máquina inspirados no funcionamento do cérebro humano. Elas consistem em neurônios artificiais organizados em camadas. Cada neurônio recebe entradas, realiza um cálculo e passa o resultado para os neurônios da próxima camada. 
 Ex: em um modelo para reconhecimento de voz, uma rede neural pode ser treinada para reconhecer padrões sonoros associados a palavras específicas.
 
